@@ -1,0 +1,1 @@
+python -u main-test.py --model=mctn --batch_size=32 --dataset=ABAW --audio_feature=wavlm-large-CLIPPooling-o_800s_1000-pesudo-FRA --text_feature=clip-vit-large-patch14-o_800s_1000-pesudo-FRA --video_feature=clip-vit-large-patch14-o_800s_1000-pesudo-FRA --feat_type=frm_align --gpu=0,1,2,3,4,5,6,7

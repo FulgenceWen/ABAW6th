@@ -1,0 +1,3 @@
+python -u main-release.py --model=mctn --batch_size=32 --dataset=ABAW --audio_feature=clip-vit-large-patch14-o_800s_1000-FRA --text_feature=clip-vit-large-patch14-o_800s_1000-FRA --video_feature=clip-vit-large-patch14-o_800s_1000-FRA --feat_type=frm_align --gpu=4,5,6,7
+python -u main-release.py --model=mctn --batch_size=32 --dataset=ABAW --audio_feature=eva02-base-patch14-224-o_800s_1000-FRA --text_feature=eva02-base-patch14-224-o_800s_1000-FRA --video_feature=eva02-base-patch14-224-o_800s_1000-FRA --feat_type=frm_align --gpu=4,5,6,7
+python -u main-release.py --model=mctn --batch_size=32 --dataset=ABAW --audio_feature=resnet50face-o_800s_1000-FRA --text_feature=resnet50face-o_800s_1000-FRA --video_feature=resnet50face-o_800s_1000-FRA --feat_type=frm_align --gpu=4,5,6,7
